@@ -1,0 +1,35 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Design;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+
+class DesignSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        Design::create([
+            'nome' => [
+                'en' => 'Solid color',
+                'it' => 'Tinta unita'
+            ],
+        ]);
+        Design::create([
+            'nome' => [
+                'en' => 'Stripes',
+                'it' => 'Righe'
+            ],
+        ]);
+        Design::create([
+            'nome' => [
+                'en' => 'Squares',
+                'it' => 'Quadri'
+            ],
+        ]);
+    }
+}
