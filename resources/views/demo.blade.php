@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="csrf-token" content="{{ csrf_token() }}">
-  <title>Shirtly - Configuratore 3D</title>
+  <title>Ravizza Lab - Configuratore 3D</title>
 
   <!-- Favicon -->
   <link rel="icon" href="{{ asset('images/favicon/favicon.svg') }}" type="image/svg+xml">

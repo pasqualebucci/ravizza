@@ -1,7 +1,7 @@
 <aside>
     
     @if (isset($elenco['materiali']))
-    <div class="w-full p-4 bg-white border border-gray-200 rounded-lg mb-4">
+    <div class="w-full p-4 border border-[var(--theme-accent-color)]/20 rounded-lg mb-4">
         <div class="flex items-center justify-between mb-4">
             <h5 class="text-base font-bold leading-none text-gray-900 ">Materiali</h5>
         </div>

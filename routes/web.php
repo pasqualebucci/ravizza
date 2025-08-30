@@ -6,14 +6,13 @@ use Illuminate\Support\Facades\Session;
 use App\Http\Controllers\SnipcartController;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Storage;
+use App\Http\Controllers\SizeYouController;
 
 use Illuminate\Http\Request;
 
 Route::get('/', [DemoController::class, 'index'])->name('demo.index');
 
-Route::get('/docs', function () {
-    return view('docs');
-});
+
 
 Route::get('/privacy-policy', function () {
     return view('privacy', ['link' => 'privacy']);
@@ -21,6 +20,14 @@ Route::get('/privacy-policy', function () {
 Route::get('/cookie-policy', function () {
     return view('cookie', ['link' => 'cookie']);
 });
+Route::get('/la-nostra-storia', function () {
+    return view('history', ['link' => 'history']);
+});
+Route::get('/contatti', function () {
+    return view('contact', ['link' => 'contact']);
+});
+
+Route::post('/sizeyou', [SizeYouController::class, 'store'])->name('sizeyou.store');
 
 
 

@@ -1,4 +1,4 @@
-<div class="p-4 bg-white border border-gray-200 rounded-lg space-y-4">
+<div class="p-4 border border-[var(--theme-accent-color)]/20 rounded-lg space-y-4">
     <div>
         <label for="taglia" class="block mb-2 text-sm font-medium text-gray-900">Seleziona la tua taglia</label>
         <select class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" wire:model.defer="taglia">

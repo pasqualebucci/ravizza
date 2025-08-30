@@ -18,11 +18,14 @@
 
         <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="536b42c6-7dd1-4eab-9a36-165727885078" data-blockingmode="auto" type="text/javascript"></script>
 
+        <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuZ3qUTBIYNRMaC8QDOS-AYD0InDfgpN4&callback=console.debug&libraries=maps,marker&v=beta">
+    </script>
+
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
 </head>
 
-<body class="bg-white text-gray-900 font-sans overflow-x-hidden">
+<body class="bg-[#fff9ea] text-gray-900 font-sans overflow-x-hidden">
 
     {{ $slot }}
 

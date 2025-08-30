@@ -10,10 +10,10 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 
-        --theme-bg-color: oklch(96.7% 0.003 264.542);
-        --theme-bg-model-color: oklch(92.8% 0.006 264.531);
-        --theme-bg-customizer-color: #ffffff;
-        --theme-accent-color: oklch(55.8% 0.288 302.321);
+        --theme-bg-color: #fff9ea;
+        --theme-bg-model-color: #FFFCF5;
+        --theme-bg-customizer-color: #FFFCF5;
+        --theme-accent-color: #646b2c;
         --theme-accent-color-contrast: #ffffff;
         
 }
@@ -27,3 +27,4 @@
     opacity: 1;
     transition: opacity 0.5s;
 }
+

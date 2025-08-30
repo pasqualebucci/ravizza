@@ -1,4 +1,4 @@
-<div class="p-4 bg-white border border-gray-200 rounded-lg space-y-4">
+<div class="p-4 border border-[var(--theme-accent-color)]/20 rounded-lg space-y-4">
 
     @if($showErrors)
     <div class="p-4 text-sm text-gray-800 border border-gray-300 rounded-lg bg-gray-50" role="alert">

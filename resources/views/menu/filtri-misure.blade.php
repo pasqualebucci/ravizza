@@ -1,6 +1,6 @@
 <aside>
 
-    <div class="w-full p-4 bg-white border border-gray-200 rounded-lg mb-4">
+    <div class="w-full p-4 border border-[var(--theme-accent-color)]/20 rounded-lg mb-4">
         
         <div class="flow-root">
             <ul role="list" class="divide-y divide-gray-200 ">
@@ -37,12 +37,20 @@
                     </div>
                 </li>
 
+                <li class="py-3" wire:click="updateMisure('SizeYou')">
+                    <div class="flex items-center">
+                        <div class="flex-1 min-w-0">
+                            <p class="text-sm text-sm {{ $currentMisure === 'SizeYou' ? 'text-[var(--theme-accent-color)] font-bold' : 'text-gray-900 font-medium cursor-pointer' }}">Misurati con l'App SizeYou</p>
+                        </div>
+                    </div>
+                </li>
+
             </ul>
         </div>
     </div>
 
 
-    <div class="w-full p-4 bg-white border border-gray-200 rounded-lg">
+    <div class="w-full p-4 border border-[var(--theme-accent-color)]/20 rounded-lg">
         <div class="flex items-center justify-between mb-4">
             <h5 class="text-base font-bold leading-none text-gray-900 ">Unità di misura</h5>
 

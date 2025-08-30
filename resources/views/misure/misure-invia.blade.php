@@ -1,4 +1,4 @@
-<div class="p-4 bg-white border border-gray-200 rounded-lg space-y-4">
+<div class="p-4 border border-[var(--theme-accent-color)]/20 rounded-lg space-y-4">
     <p>Vuoi duplicare le misure di una camicia in tuo possesso, ma non sai come misurarla correttamente?</p>
     <p>Inviaci la tua camicia ed i nostri esperti la misureranno e conserveranno le tue misure per i prossimi acquisti. Alla tua camicia non verrà arrecato alcun danno e ti verrà rispedita nel modo migliore possibile.</p>
     <p>Invia a:</p>

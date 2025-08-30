@@ -7,7 +7,7 @@
 
           <div class="shrink-0">
             <a href="/">
-              <img class="block w-auto h-6 " src="{{ asset('images/logo/shirtly_black.svg') }}" alt="logo">
+              <img class="block w-auto h-12 " src="{{ asset('images/logo/logo_ravizza.webp') }}" alt="logo">
 
             </a>
           </div>

@@ -3,7 +3,7 @@
         <div class="flex justify-between ">
 
             <div>
-                <img class="w-auto h-5 sm:h-7 " src="{{ asset('images/logo/shirtly_white.svg') }}" alt="logo">
+                <img class="w-40 h-auto " src="{{ asset('images/logo/logo_ravizza.webp') }}" alt="logo">
                 <ul class="mt-6 flex space-x-4">
                     <li class="">
                         <a class="text-white" href="https://www.facebook.com/digitall.uno/"><x-ri-facebook-circle-line
@@ -46,9 +46,9 @@
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
             <p class="text-sm text-gray-300">
-                © 2025 Shirtly by <a href="https://digitall.uno/" class="hover:underline">Digitall</a>&nbsp;-&nbsp;P.IVA
-                03324090731<br />
-                Design, sviluppo e prompt engineering a cura di Pasquale Bucci</p>
+                © 2025 Ravizza Lab&nbsp;-&nbsp;P.IVA
+                00000000000<br />
+                Design, sviluppo e prompt engineering a cura di Pasquale Bucci per <a href="https://digitall.uno/" class="hover:underline">Digitall</a></p>
         </div>
 
     </div>

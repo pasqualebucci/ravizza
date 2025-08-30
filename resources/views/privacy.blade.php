@@ -1,17 +1,24 @@
 <x-sito.main-layout>
     <x-slot:title>
-        Privacy Policy - Shirtly
+        Privacy Policy - Ravizza Lab
     </x-slot>
 
-    @include('components.sito.nav-light-page')
+    <section class="relative pt-20 bg-[#fff9ea]">
+            <div class="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
 
-    
-    <section class="py-24 px-6">
-        <div class="max-w-screen-md mx-auto prose prose-lg">
+                <div class="grid grid-cols-1 items-center justify-center">
 
-            <h1 class="text-3xl md:text-4xl font-bold mb-8 text-gray-900">Informativa sulla Privacy</h1>
 
-            <p class="text-gray-700">Ultimo aggiornamento: 24/04/2025</p>
+
+                    <div class="text-sm max-w-3xl mx-auto text-center">
+                        @include('components.sito.nav')
+
+                    </div>
+        <div class="max-w-screen-lg mx-auto prose prose-lg mt-12">
+
+            <h1 class="text-3xl md:text-4xl font-bold mb-4 text-[#646b2c] text-center">Informativa sulla Privacy</h1>
+
+            <p class="text-gray-700 text-center mb-12">Ultimo aggiornamento: 24/04/2025</p>
 
             <h2 class="text-2xl font-semibold mt-8 mb-4 text-gray-900">1. Titolare del Trattamento dei Dati</h2>
             <p class="text-gray-700">Il Titolare del Trattamento dei tuoi dati personali è:</p>
@@ -119,8 +126,14 @@
             <p class="text-gray-700">Per domande o richieste relative alla presente Informativa sulla Privacy, puoi contattare il Titolare del Trattamento ai recapiti indicati nella Sezione 1.</p>
 
         </div>
-    </section>
+    
 
-    @include('components.sito.footer')
+    </div>
+
+                 @include('components.sito.footer')
+
+            </div>
+        </section>
+
 
 </x-sito.main-layout>

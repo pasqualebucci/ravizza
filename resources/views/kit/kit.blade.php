@@ -38,6 +38,8 @@
         @include('menu.misure-invia')
         @elseif($currentMisure === 'Misura la tua camicia')
         @include('menu.misure-camicia')
+        @elseif($currentMisure === 'SizeYou')
+        @include('menu.misure-sizeyou')
         @endif
     </div>
 

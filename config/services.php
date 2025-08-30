@@ -45,5 +45,9 @@ return [
     'fashn' => [
         'api_key' => env('FASHN_API_KEY'),
     ],
+    'sizeyou' => [
+        'token' => env('SIZEYOU_TOKEN'),
+    ],
+
 
 ];
