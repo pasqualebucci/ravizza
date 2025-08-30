@@ -18,13 +18,13 @@
 
             <h1 class="text-3xl md:text-4xl font-bold mb-4 text-[#646b2c] text-center">Informativa sulla Privacy</h1>
 
-            <p class="text-gray-700 text-center mb-12">Ultimo aggiornamento: 24/04/2025</p>
+            <p class="text-gray-700 text-center mb-12">Ultimo aggiornamento: 31/07/2025</p>
 
             <h2 class="text-2xl font-semibold mt-8 mb-4 text-gray-900">1. Titolare del Trattamento dei Dati</h2>
             <p class="text-gray-700">Il Titolare del Trattamento dei tuoi dati personali è:</p>
-            <p class="text-gray-700 font-semibold">Giordano Giummo</p>
-            <p class="text-gray-700">Via Anfiteatro 176, 74123 Taranto c/o Digitall</p>
-            <p class="text-gray-700">Email di contatto: <a href="mailto:info@digitall.uno" class="text-blue-600 hover:underline">info@digitall.uno</a></p>
+            <p class="text-gray-700 font-semibold">Vittorio Pelli</p>
+            <p class="text-gray-700">Ennevi srl - Viale Carlo Espinasse 82, 20156 Milano</p>
+            <p class="text-gray-700">Email di contatto: <a href="mailto:lab@camiceria1871.com" class="text-blue-600 hover:underline">lab@camiceria1871.com</a></p>
 
             <h2 class="text-2xl font-semibold mt-8 mb-4 text-gray-900">2. Tipi di Dati Raccolti</h2>
             <p class="text-gray-700 mb-2">Possiamo raccogliere le seguenti categorie di dati:</p>

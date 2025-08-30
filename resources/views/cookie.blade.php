@@ -19,7 +19,7 @@
                         <p class="text-gray-700 text-center mb-12">Ultimo aggiornamento: 24/04/2025</p>
 
                         <p class="text-gray-700 mb-8">
-                            La presente Informativa sui Cookie descrive come il sito web Shirtly utilizza cookie e
+                            La presente Informativa sui Cookie descrive come il sito web camiceria1871 utilizza cookie e
                             tecnologie simili.
                         </p>
 
