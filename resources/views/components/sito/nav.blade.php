@@ -11,30 +11,28 @@
                 <ul class="navbar-nav flex flex-col lg:flex-row gap-2 lg:gap-3 justify-center mx-auto"
                     id="navbar-navlist">
                     <li><a href="/fabric/{{$firstTessuto->slug }}"
-                            class="nav-link text-sm lg:text-lg font-bold px-2 py-0.5 uppercase text-[#646b2c] hover:text-[#193820] hover:underline transition-all">Crea la tua camicia</a>
+                            class="nav-link text-sm lg:text-lg font-bold px-2 py-0.5 uppercase text-[#646b2c] hover:text-[#193820] hover:underline transition-all">Crea
+                            la tua camicia</a>
                     </li>
                     <li>
-                        @if(isset($link) && $link == "history")
-                                <a href="/la-nostra-storia"
-                            class="nav-link text-sm lg:text-lg font-bold px-2 py-0.5 uppercase text-[#193820] underline transition-all">La nostra storia</a>
-                                @else
-                                <a href="/la-nostra-storia"
-                            class="nav-link text-sm lg:text-lg font-bold px-2 py-0.5 uppercase text-[#646b2c] hover:text-[#193820] hover:underline transition-all">La nostra storia</a>
-                            @endif
-                        
+                        <a href="/la-nostra-storia" class="nav-link text-sm lg:text-lg font-bold px-2 py-0.5 uppercase transition-all
+       {{ (isset($link) && $link === 'history')
+    ? 'text-[#193820] underline'
+    : 'text-[#646b2c] hover:text-[#193820] hover:underline' }}">
+                            La nostra storia
+                        </a>
                     </li>
+
                     <li>
-                        @if(isset($link) && $link == "contact")
-                                <a href="/contatti"
-                            class="nav-link text-sm lg:text-lg font-bold px-2 py-0.5 uppercase text-[#193820] underline transition-all">Contatti</a>
-                                @else
-                                <a href="/contatti"
-                            class="nav-link text-sm lg:text-lg font-bold px-2 py-0.5 uppercase text-[#646b2c] hover:text-[#193820] hover:underline transition-all">Contatti</a>
-                            @endif
-                        
-                        
+                        <a href="/contatti" class="nav-link text-sm lg:text-lg font-bold px-2 py-0.5 uppercase transition-all
+       {{ (isset($link) && $link === 'contact')
+    ? 'text-[#193820] underline'
+    : 'text-[#646b2c] hover:text-[#193820] hover:underline' }}">
+                            Contatti
+                        </a>
                     </li>
-                    
+
+
                 </ul>
             </div>
 

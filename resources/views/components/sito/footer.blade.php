@@ -48,24 +48,3 @@
 
 </footer>
 
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const link = document.getElementById('nav-link-f');
-
-        function setActiveLink() {
-            const hash = window.location.hash;
-
-            if (link.getAttribute('href') === '/' + hash) {
-                link.classList.add('text-purple-500');
-            } else {
-                link.classList.remove('text-purple-500');
-            }
-
-        }
-
-        setActiveLink();
-
-        // aggiorna il link attivo anche quando clicchi
-        window.addEventListener('hashchange', setActiveLink);
-    });
-</script>
