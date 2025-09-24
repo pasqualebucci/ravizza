@@ -35,7 +35,7 @@
     </div>
 @endif
 
-
+@if(!session('qrCode'))
     <form action="{{ route('sizeyou.store') }}" method="POST" class="space-y-4">
     @csrf
 
@@ -106,7 +106,7 @@
         Invia
     </button>
 </form>
-
+@endif
 
     
 </div>
