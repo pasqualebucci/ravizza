@@ -21,8 +21,6 @@
                         </gmp-map>
                     </div>
 
-
-
                     <!-- Contact Start -->
                     <section id="contact" class="py-20">
                         <div class="w-full max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8">
