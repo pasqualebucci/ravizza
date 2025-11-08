@@ -32,7 +32,7 @@ class AppServiceProvider extends ServiceProvider
 
         // Prova a prendere il primo tessuto, senza far crashare l'app
         try {
-            $firstTessuto = Texture::first();
+            $firstTessuto = Texture::where('attivo', true)->first();
         } catch (\Throwable $e) {
             $firstTessuto = null;
         }
