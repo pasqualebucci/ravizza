@@ -34,28 +34,28 @@
 
 
                                     <div
-                                        class="flex flex-col sm:flex-row items-center gap-5 text-center sm:text-start mt-10">
+                                        class="flex flex-col sm:flex-row items-center gap-5 text-center sm:text-start ">
                                         <div
                                             class="h-12 w-12 rounded-full bg-[#646b2c]/10 flex items-center justify-center">
                                             <x-heroicon-o-phone class="h-7 text-[#646b2c]" />
                                         </div>
                                         <div>
-                                            <h5 class="text-base text-muted font-medium mb-1">(+39) +39 333 80 28 502
+                                            <h5 class="text-base text-muted font-medium mb-1">02 30836 82
                                             </h5>
-                                            <a href="#" class="text-xs text-[#646b2c] font-bold uppercase">Chiamaci</a>
+                                            
                                         </div>
                                     </div>
 
                                     <div
-                                        class="flex flex-col sm:flex-row items-center gap-5 text-center sm:text-start mt-10">
+                                        class="flex flex-col sm:flex-row items-center gap-5 text-center sm:text-start mt-6">
                                         <div
                                             class="h-12 w-12 rounded-full bg-[#646b2c]/10 flex items-center justify-center">
-                                            <x-heroicon-o-phone class="h-7 text-[#646b2c]" />
+                                            <x-heroicon-o-envelope class="h-7 text-[#646b2c]" />
                                         </div>
                                         <div>
-                                            <h5 class="text-base text-muted font-medium mb-1">(+39) +39 02 85 68 7613
+                                            <h5 class="text-base text-muted font-medium mb-1">lab@camiceria1871.com
                                             </h5>
-                                            <a href="#" class="text-xs text-[#646b2c] font-bold uppercase">Chiamaci</a>
+                                            
                                         </div>
                                     </div>
                                 </div>

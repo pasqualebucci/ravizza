@@ -6,17 +6,17 @@
                 <img class="w-40 h-auto " src="{{ asset('images/logo/logo_ravizza.webp') }}" alt="logo">
                 <ul class="mt-6 flex space-x-4">
                     <li class="">
-                        <a class="text-white" href="https://www.facebook.com/digitall.uno/"><x-ri-facebook-circle-line
+                        <a class="text-white" href="#"><x-ri-facebook-circle-line
                                 class="h-7" />
                         </a>
                     </li>
                     <li class="">
-                        <a class="text-white" href="https://www.instagram.com/digitall.uno/"><x-ri-instagram-line
+                        <a class="text-white" href="#"><x-ri-instagram-line
                                 class="h-7" />
                         </a>
                     </li>
                     <li class="">
-                        <a class="text-white" href="https://www.youtube.com/@digitallwebagency"><x-ri-youtube-line
+                        <a class="text-white" href="#"><x-ri-youtube-line
                                 class="h-7" />
                         </a>
                     </li>
@@ -45,9 +45,7 @@
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-            <p class="text-sm text-gray-300">
-                © 2025 Ravizza Lab&nbsp;-&nbsp;P.IVA
-                00000000000<br />
+            <p class="text-gray-500 text-sm">© 2025 - ENNEVI s.r.l.<br />PIVA IT02806130023<br />
                 Design, sviluppo e prompt engineering a cura di Pasquale Bucci per <a href="https://digitall.uno/" class="hover:underline">Digitall</a></p>
         </div>
 

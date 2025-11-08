@@ -9,10 +9,10 @@
                     <p>Viale Carlo Espinasse 82,<br />20156 MIlano</p>
                     </li>
                     <li class="mt-4">
-                        <span>cell +39 333 8028502</span>
+                        <span>Email lab@camiceria1871.com</span>
                     </li>
                     <li>
-                        <span">tel +39 02 85687613</span>
+                        <span">Tel. +39 02 30836 82</span>
                     </li>
                 </ul>
             </div>
@@ -21,7 +21,7 @@
 
                 <ul class="text-[#646b2c] text-sm transition-all font-medium text-right uppercase">
                     <li>
-                    <p>© 2025 - ravizza lab<br />PIVA 000000000</p>
+                    <p>© 2025 - ENNEVI s.r.l.<br />PIVA IT02806130023</p>
                     </li>
                     <li class="mt-4">
                         @if(isset($link) && $link == "privacy")

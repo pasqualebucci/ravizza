@@ -40,6 +40,8 @@
         @include('menu.misure-camicia')
         @elseif($currentMisure === 'SizeYou')
         @include('menu.misure-sizeyou')
+        @elseif($currentMisure === 'Servizio su misura a Milano')
+        @include('menu.misure-milano')
         @endif
     </div>
 

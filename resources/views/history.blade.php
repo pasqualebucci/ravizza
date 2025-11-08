@@ -22,9 +22,9 @@
                         <div class="mb-12 flex justify-center">
                         <img class="aspect-3/2 object-cover rounded-xl" src={{ asset('sito/images/ravizza-lab.jpg') }} />
                     </div>
-                        <p>REALIZZIAMO CAMICIE DAL 1897</p>
+                        <p>LA VERA CAMICIA ARTIGIANALE MADE IN MILANO</p>
                         <br />
-                        <p>La storia della Fossati Camicie Milano, ora ENNEVI SRL, ha inizio nel 1897 quando il sig.
+                        <p>Ravizza dal 1871, marchio di lunga tradizione sartoriale, da via Hoepli è ora presso il laboratorio artigianale Fossati che confeziona le camicie su misura. La storia della Fossati Camicie Milano, ha inizio nel 1897 quando il sig.
                             Ciceri fondò la camiceria artigianale specializzata nella confezione delle "camicie da
                             società" di alto livello.</p>
                         <br />

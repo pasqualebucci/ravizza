@@ -338,7 +338,7 @@ class ShirtConfigurator extends Component
 
     protected function applyFilters()
     {
-        $query = Texture::query();
+        $query = Texture::query()->where('attivo', true);
 
         if (!empty($this->selectedMaterials)) {
             $query->whereIn('material_id', $this->selectedMaterials);
@@ -639,6 +639,17 @@ class ShirtConfigurator extends Component
     {
 
         $this->currentMisure = 'Inviaci una camicia';
+        $this->misure = ['Tipo misura' => $this->currentMisure];
+        session([
+            'currentMisure' => $this->currentMisure,
+            'misure' => $this->misure,
+            'status' => 'Misure applicate con successo',
+        ]);
+    }
+    public function updateMisureMilano()
+    {
+
+        $this->currentMisure = 'Servizio su misura a Milano';
         $this->misure = ['Tipo misura' => $this->currentMisure];
         session([
             'currentMisure' => $this->currentMisure,

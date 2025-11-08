@@ -46,20 +46,7 @@
               </button>
             </li>
 
-            <li class="shrink-0">
-              <button @click="
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-                $wire.setFase('tryon');
-              "
-                class="cursor-pointer px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 flex items-center
-                    {{ $fase === 'tryon' ? 'bg-[var(--theme-accent-color)] text-[var(--theme-accent-color-contrast)] font-bold' : 'text-gray-900 hover:bg-[var(--theme-accent-color)]/20' }}">
-
-                <x-heroicon-s-sparkles class="h-5 w-auto mr-1" />Virtual Try-On<span
-                  class="inline-flex items-center justify-center w-auto h-4 ms-2 text-xs font-semibold  bg-[var(--theme-accent-color)]/10 p-1"><span
-                    class="{{ $fase === 'tryon' ? 'text-[var(--theme-accent-color-contrast)]' : 'text-[var(--theme-accent-color)]' }}">Beta</span></span>
-              </button>
-            </li>
-
+            
 
 
           </ul>
@@ -162,16 +149,7 @@
                         {{ __('shirt.measurements') }}
                       </button>
                     </li>
-                    <li class="shrink-0">
-                      <button
-                        class="cursor-pointer px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 flex items-center
-                    {{ $fase === 'tryon' ? 'bg-[var(--theme-accent-color)] text-[var(--theme-accent-color-contrast)] font-bold' : 'text-gray-900 hover:bg-[var(--theme-accent-color)]/20' }}">
-
-                        <x-heroicon-s-sparkles class="h-5 w-auto mr-1" />Virtual Try-On<span
-                          class="inline-flex items-center justify-center w-auto h-4 ms-2 text-xs font-semibold  bg-[var(--theme-accent-color)]/10 p-1"><span
-                            class="{{ $fase === 'tryon' ? 'text-[var(--theme-accent-color-contrast)]' : 'text-[var(--theme-accent-color)]' }}">Beta</span></span>
-                      </button>
-                    </li>
+                    
                   </ul>
 
                   <!-- Fade destro -->

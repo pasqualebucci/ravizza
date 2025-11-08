@@ -45,6 +45,15 @@
                     </div>
                 </li>
 
+                <li class="py-3" wire:click="updateMisure('Servizio su misura a Milano')">
+                    <div class="flex items-center">
+                        <div class="flex-1 min-w-0">
+                            <p class="text-sm text-sm {{ $currentMisure === 'Servizio su misura a Milano' ? 'text-[var(--theme-accent-color)] font-bold' : 'text-gray-900 font-medium cursor-pointer' }}">Servizio su misura a Milano</p>
+                        </div>
+                    </div>
+                </li>
+
+
             </ul>
         </div>
     </div>
