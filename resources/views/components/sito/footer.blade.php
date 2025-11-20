@@ -6,23 +6,19 @@
             <div>
                 <ul class="text-[#646b2c] text-sm transition-all font-medium uppercase">
                     <li>
-                    <p>Viale Carlo Espinasse 82,<br />20156 MIlano</p>
+                    <p>Lavoriamo solo con Tessuti di alta qualità</p>
                     </li>
                     <li class="mt-4">
-                        <span>Email lab@camiceria1871.com</span>
+                        <img src="{{ asset('images/sito/loghi_tessuti.png') }}" class="h-22" alt="Logo White">
                     </li>
-                    <li>
-                        <span">Tel. +39 02 30836 82</span>
-                    </li>
+                    
                 </ul>
             </div>
 
             <div>
 
                 <ul class="text-[#646b2c] text-sm transition-all font-medium text-right uppercase">
-                    <li>
-                    <p>© 2025 - ENNEVI s.r.l.<br />PIVA IT02806130023</p>
-                    </li>
+                    
                     <li class="mt-4">
                         @if(isset($link) && $link == "privacy")
                                 <a href="/privacy-policy" class="underline text-[#193820]">Privacy Policy</a>

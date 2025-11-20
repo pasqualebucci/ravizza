@@ -19,16 +19,17 @@
 
                     <div class="mt-6">
 
-                        <video class="w-full aspect-video rounded-xl" autoplay muted loop>
-                            <source src={{ asset('sito/videos/ravizza-lab.mp4') }} type="video/mp4">
-                            Your browser does not support the video tag.
+                        <video class="w-full aspect-video rounded-xl" autoplay muted loop playsinline
+                            webkit-playsinline>
+                            <source src="{{ asset('sito/videos/ravizza-lab.mp4') }}" type="video/mp4">
+                            Il tuo browser non supporta il tag video.
                         </video>
 
 
                     </div>
                 </div>
 
-                 @include('components.sito.footer')
+                @include('components.sito.footer')
 
             </div>
         </section>

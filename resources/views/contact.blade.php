@@ -27,7 +27,7 @@
                             <div class="grid lg:grid-cols-3 gap-6 items-center">
                                 <div>
 
-                                    <h2 class="text-3xl md:text-4xl/tight font-semibold mt-4">Hai bisogno di
+                                    <h2 class="text-3xl md:text-4xl/tight font-semibold my-4">Hai bisogno di
                                         informazioni?<br /><span class="text-[#646b2c]">Siamo
                                             qui per te.</span></h2>
 
@@ -40,7 +40,7 @@
                                             <x-heroicon-o-phone class="h-7 text-[#646b2c]" />
                                         </div>
                                         <div>
-                                            <h5 class="text-base text-muted font-medium mb-1">02 30836 82
+                                            <h5 class="text-base text-muted font-medium mb-1">+39 02 85687 613
                                             </h5>
                                             
                                         </div>

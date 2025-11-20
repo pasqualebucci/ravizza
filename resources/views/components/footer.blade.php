@@ -21,7 +21,7 @@
                         </a>
                     </li>
                     <li class="">
-                        <a class="text-white" href="https://wa.me/393929068895"><x-ri-whatsapp-line class="h-7" />
+                        <a class="text-white" href="https://wa.me/393338028502"><x-ri-whatsapp-line class="h-7" />
                         </a>
                     </li>
                 </ul>

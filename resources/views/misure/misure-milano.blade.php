@@ -11,7 +11,7 @@
                                             <x-heroicon-o-phone class="h-7 text-[#646b2c]" />
                                         </div>
                                         <div>
-                                            <h5 class="text-base text-muted font-medium mb-1">02 30836 82
+                                            <h5 class="text-base text-muted font-medium mb-1">+39 02 85687 613
                                             </h5>
                                             
                                         </div>
